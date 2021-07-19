@@ -178,3 +178,34 @@ submitScoreEl.addEventListener("click", function() { // Submit high scores
 
 });
 
+
+answer1BtnEl.addEventListener("mouseover", function() {
+
+    answerCorrectWrong.style.display = 'none';
+
+});
+
+answer2BtnEl.addEventListener("mouseover", function() {
+
+    answerCorrectWrong.style.display = 'none';
+
+});
+
+answer3BtnEl.addEventListener("mouseover", function() {
+
+    answerCorrectWrong.style.display = 'none';
+
+});
+
+answer4BtnEl.addEventListener("mouseover", function() {
+
+    answerCorrectWrong.style.display = 'none';
+
+});
+
+submitScoreEl.addEventListener("mouseover", function() {
+
+    answerCorrectWrong.style.display = 'none';
+
+});
+
