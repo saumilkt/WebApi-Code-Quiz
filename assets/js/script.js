@@ -605,3 +605,11 @@ startQuizBtnEl.addEventListener("click", function() {
 
 });
 
+function lastQuestionWrong() {
+    if (finalAnswerCheck === 1 && checkTimes === 1) {
+        highScore -= 10;
+        checkTimes = 2;
+        return highScore
+    }
+
+}
