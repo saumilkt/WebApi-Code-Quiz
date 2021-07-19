@@ -94,3 +94,45 @@ header {
 
 
 
+#enterInitials {
+    
+    grid-column: 1 / span 1;
+    grid-row: 7 / span 1;
+    font-size: 15px;
+}
+
+
+#enterInitialsTextArea {
+    
+    grid-column: 2 / span 1;
+    grid-row: 7 / span 1;
+    font-size: 15px;
+    resize: none;
+    
+}
+
+#submitScore {
+    grid-column: 3 / span 1;
+    grid-row: 7 / span 1;
+    padding: 10px 10px 10px 10px;
+    border-radius: 10%;
+    border: 0;
+    outline: 0; /* Remove border around button */
+    background-color: purple;
+    color: white;
+    font-family: 'Merienda';font-size: 15px;
+}
+
+#start-quiz {
+    grid-column: 2 / span 2;
+    grid-row: 5 / span 1;
+    padding: 10px 10px 10px 10px;
+    border-radius: 10%;
+    border: 0;
+    outline: 0; /* Remove border around button */
+    background-color: purple;
+    place-self: center;
+    color: white;
+    font-family: 'Merienda';font-size: 15px;
+}
+
